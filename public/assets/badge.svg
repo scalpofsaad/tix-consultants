@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none" role="img" aria-label="TIXCON Professional Accounting Services Since 2024 Seal">
+  <circle cx="90" cy="90" r="84" fill="#FFFFFF" stroke="#0A2E5C" stroke-width="3"/>
+  <circle cx="90" cy="90" r="76" stroke="#149CE3" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="90" cy="90" r="56" fill="#F0F8FF" stroke="#0A2E5C" stroke-width="1.5"/>
+  <!-- Top and bottom curved arrows -->
+  <path d="M56 66C68 50 100 46 122 60" stroke="#149CE3" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="128,64 114,63 122,52" fill="#149CE3"/>
+  <path d="M124 114C112 130 80 134 58 120" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="52,116 66,117 58,128" fill="#10B981"/>
+  <!-- Center text -->
+  <text x="90" y="92" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="22" letter-spacing="1" fill="#0A2E5C">TIXCON</text>
+  <text x="90" y="107" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="8.5" letter-spacing="1.2" fill="#149CE3">TIX CONSULTANTS</text>
+  <!-- Circular path text -->
+  <defs>
+    <path id="topArc" d="M 24,90 A 66,66 0 1,1 156,90"/>
+    <path id="botArc" d="M 156,94 A 66,66 0 1,1 24,94"/>
+  </defs>
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="8.2" letter-spacing="1.5" fill="#0A2E5C">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">PROFESSIONAL ACCOUNTING SERVICES</textPath>
+  </text>
+  <text font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="8.2" letter-spacing="1.8" fill="#0A2E5C">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">SINCE 2024 &#8226; FINANCIAL CONSULTANTS</textPath>
+  </text>
+</svg>
